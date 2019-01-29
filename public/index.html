@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>News</title>
+    <style>
+      body { background-color: rgb(76, 137, 242); font-family: Arial, Helvetica, sans-serif}
+      h1{}
+
+      h2{}
+
+      #wrapper {
+        width: 960px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 5%;
+      }
+      #articles {
+        display: inline-block;
+        overflow: auto;
+        width: 60%;
+        height: 700px;
+        border: 2px;
+        border-color:skyblue;
+      }
+
+      #notes {
+        float: right;
+        width: 30%;
+      }
+      textarea, input {
+        display: block;
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        border: solid;
+        border-color: royalblue
+      }
+      input {
+        height: 36px;
+        font-size: 24px;
+      }
+      textarea {
+        height: 200px;
+        font-size: 18px;
+        color: white;
+      }
+
+      #scrape{
+        height: 36px;
+        width: 250px;
+        font-size: 24px;
+        border-radius: 10px;
+        color: red;
+        display: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="wrapper">
+      <h1>Welcome To Your Curated Fashion Outlet</h1>
+      <button id="scrape">let's start</button>
+      <h2><i>Browse through and leave your opinion.</i></h2>
+      <div id="articles"></div>
+      <div id="notes"></div>
+      // add another button after save article that deletes article like in notes exercise
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

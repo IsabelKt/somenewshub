@@ -1,1 +1,1 @@
-# somenewshub
+# newshub
